@@ -1,0 +1,258 @@
+14:07:41.921 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > 'Content-Type': application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:07:42.785 [main] DEBUG com.intuit.karate - response time in milliseconds: 860
+1 < 200
+1 < Date: Fri, 29 Dec 2023 19:07:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703817610&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7uzY7o6%2F3Ot1UniNWPk2cEz%2BjzVbB0QQ%2B3V3GSFfBBE%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703817610&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7uzY7o6%2F3Ot1UniNWPk2cEz%2BjzVbB0QQ%2B3V3GSFfBBE%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 83d454080e95a678-GRU
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+14:07:42.935 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 22
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"","job":"QA"}
+
+14:07:43.618 [main] DEBUG com.intuit.karate - response time in milliseconds: 681
+1 < 201
+1 < Date: Fri, 29 Dec 2023 19:07:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 72
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703876871&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=cP5kjGzXfACIx1hq%2F7U7JEaGZF%2BWtQj6lC0GQGag%2FfY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703876871&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=cP5kjGzXfACIx1hq%2F7U7JEaGZF%2BWtQj6lC0GQGag%2FfY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"48-htdnqMVO343c67s3h4nLpqK3h5Q"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83d4540d4841a690-GRU
+{"name":"","job":"QA","id":"157","createdAt":"2023-12-29T19:07:51.571Z"}
+
+14:07:43.649 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"null","job":"QA Trainee"}
+
+14:07:44.323 [main] DEBUG com.intuit.karate - response time in milliseconds: 671
+1 < 201
+1 < Date: Fri, 29 Dec 2023 19:07:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703876872&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=5ZAe8ej7K4j3C9l%2FG6PPPSgG2hojmlX0KE6ArfYdr1s%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703876872&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=5ZAe8ej7K4j3C9l%2FG6PPPSgG2hojmlX0KE6ArfYdr1s%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-zM/7uHmdYy7kFhYlU8btR0LWKxc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83d45411a853a678-GRU
+{"name":"null","job":"QA Trainee","id":"986","createdAt":"2023-12-29T19:07:52.277Z"}
+
+14:07:44.334 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Jef","job":"QALead"}
+
+14:07:45.009 [main] DEBUG com.intuit.karate - response time in milliseconds: 675
+1 < 201
+1 < Date: Fri, 29 Dec 2023 19:07:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 79
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703876872&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=5ZAe8ej7K4j3C9l%2FG6PPPSgG2hojmlX0KE6ArfYdr1s%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703876872&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=5ZAe8ej7K4j3C9l%2FG6PPPSgG2hojmlX0KE6ArfYdr1s%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4f-qEXcyNEk94SDxa7hCEppLfd0D5k"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83d45415e823a690-GRU
+{"name":"Jef","job":"QALead","id":"440","createdAt":"2023-12-29T19:07:52.961Z"}
+
+14:49:10.883 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703879350881
+14:49:10.912 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+14:49:11.695 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DbUtils = Java.type (connectDB.DbUtils)
+js failed:
+>>>>
+01: Java.type (connectDB.DbUtils)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "connectDB" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+14:49:12.429 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+14:49:54.301 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703879394299
+14:49:54.324 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+14:49:55.200 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DbUtils = Java.type('connectDB.DbUtils')
+js failed:
+>>>>
+01: Java.type('connectDB.DbUtils')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class connectDB.DbUtils is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+14:49:55.864 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+14:52:08.821 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703879528820
+14:52:08.843 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+14:52:09.645 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DBUtils = Java.type('connectDB.DbUtils')
+js failed:
+>>>>
+01: Java.type('connectDB.DbUtils')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class connectDB.DbUtils is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+14:52:10.237 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+14:52:14.164 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703879534162
+14:52:14.993 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DBUtils = Java.type('connectDB.DbUtils')
+js failed:
+>>>>
+01: Java.type('connectDB.DbUtils')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class connectDB.DbUtils is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+14:52:15.556 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+15:00:10.846 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703880010845
+15:00:10.867 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+15:00:11.676 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DBUtils = Java.type('connectDB.DbUtils')
+js failed:
+>>>>
+01: Java.type('connectDB.DbUtils')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class connectDB.DbUtils is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+15:00:12.298 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+15:03:09.562 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703880189560
+15:03:09.588 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+15:03:10.398 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DBUtils = Java.type('connectDB.DbUtils')
+js failed:
+>>>>
+01: Java.type('connectDB.DbUtils')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class connectDB.DbUtils is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+15:03:10.992 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+15:03:57.721 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703880237720
+15:03:57.744 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+15:03:58.567 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DBUtils = Java.type('connectDB.DbUtils')
+js failed:
+>>>>
+01: Java.type('connectDB.DbUtils')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class connectDB.DbUtils is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+15:03:59.146 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+15:04:08.515 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703880248514
+15:04:08.538 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+15:04:09.327 [main] ERROR com.intuit.karate - src/test/java/conecciónBD/bd.feature:5
+* def DBUtils = Java.type('connectDB.DbUtils')
+js failed:
+>>>>
+01: Java.type('connectDB.DbUtils')
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Access to host class connectDB.DbUtils is not allowed or does not exist.
+- <js>.:program(Unnamed:1)
+
+src/test/java/conecciónBD/bd.feature:5
+15:04:09.921 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+15:05:05.457 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703880305455
+15:05:05.490 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+15:05:06.494 [main] INFO  conecciónBD.DbUtils - init jdbc template: jdbc:mysQL://localhost:3306/registros
+15:05:06.739 [main] INFO  com.intuit.karate - [print] usuario-- [
+  {
+    "ID": 1,
+    "nombre": "Jeff",
+    "apellido": "Soto",
+    "usuario": "qasolver",
+    "password": "123456"
+  }
+]
+ 
+15:05:07.270 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+15:06:08.649 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703880368647
+15:06:08.672 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Lectura de valores de la Base de Datos$
+15:06:09.491 [main] INFO  conecciónBD.DbUtils - init jdbc template: jdbc:mysQL://localhost:3306/registros
+15:06:09.690 [main] INFO  com.intuit.karate - [print] usuario-- [
+  {
+    "ID": 1,
+    "nombre": "Jeff",
+    "apellido": "Soto",
+    "usuario": "qasolver",
+    "password": "123456"
+  },
+  {
+    "ID": 2,
+    "nombre": "juan",
+    "apellido": "moha",
+    "usuario": "juanito",
+    "password": "123456"
+  },
+  {
+    "ID": 3,
+    "nombre": "juan",
+    "apellido": "moha",
+    "usuario": "juanito",
+    "password": "123456"
+  }
+]
+ 
+15:06:10.231 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature

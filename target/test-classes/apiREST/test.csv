@@ -1,0 +1,4 @@
+nombreCaso,vName,vJob
+con nombre vacío,,"QA"
+con nombre nulo,null,"QA Trainee"
+con nombre 3 letras,"Jef","QALead"

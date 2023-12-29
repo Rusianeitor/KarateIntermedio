@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"apiREST\/rest[1:8]","start":1703876861699,"end":1703876862851,"title":"apiREST\/rest[1:8] 14:07:41.699-14:07:42.851 Obteniendo un usuario"},{"id":2,"group":1,"content":"apiREST\/rest[10.1:106]","start":1703876862880,"end":1703876863621,"title":"apiREST\/rest[10.1:106] 14:07:42.880-14:07:43.621 Creando un usuario con nombre vacío leyendo request desde json y leyendo ejemplos desde csv"},{"id":3,"group":1,"content":"apiREST\/rest[10.2:106]","start":1703876863643,"end":1703876864323,"title":"apiREST\/rest[10.2:106] 14:07:43.643-14:07:44.323 Creando un usuario con nombre nulo leyendo request desde json y leyendo ejemplos desde csv"},{"id":4,"group":1,"content":"apiREST\/rest[10.3:106]","start":1703876864331,"end":1703876865014,"title":"apiREST\/rest[10.3:106] 14:07:44.331-14:07:45.014 Creando un usuario con nombre 3 letras leyendo request desde json y leyendo ejemplos desde csv"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
