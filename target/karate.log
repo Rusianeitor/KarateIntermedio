@@ -256,3 +256,129 @@ src/test/java/conecciónBD/bd.feature:5
 ]
  
 15:06:10.231 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conecciónBD/bd.feature
+21:43:43.962 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703904223960
+21:43:44.066 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^Creando un usuario$
+21:43:45.104 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.9)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+21:43:45.989 [main] DEBUG com.intuit.karate - response time in milliseconds: 883
+1 < 201
+1 < Date: Sat, 30 Dec 2023 02:43:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703904233&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0H4g%2FOyDbit6JdcK%2FflL36w1gsFbAv3oQyv4jTKJ770%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703904233&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0H4g%2FOyDbit6JdcK%2FflL36w1gsFbAv3oQyv4jTKJ770%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-FJzYRyoizqhKgjuOR3QgqGcPnYI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83d6f0136ef2a505-GRU
+{"name":"morpheus","job":"leader","id":"713","createdAt":"2023-12-30T02:43:53.831Z"}
+
+21:43:46.590 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/apiREST/rest.feature
+21:45:59.665 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703904359662
+21:45:59.702 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^Creando un usuario$
+21:46:01.364 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.9)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+21:46:02.185 [main] DEBUG com.intuit.karate - response time in milliseconds: 819
+1 < 201
+1 < Date: Sat, 30 Dec 2023 02:46:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703904370&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7Ij4NjluH4iS1luCDlveBitI2sWMclwPA3n8wNZTAoY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703904370&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7Ij4NjluH4iS1luCDlveBitI2sWMclwPA3n8wNZTAoY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-qg4KQ/hH+tUprYYK/IZK99DeRXQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83d6f366cbe5a4f5-GRU
+{"name":"morpheus","job":"leader","id":"746","createdAt":"2023-12-30T02:46:10.028Z"}
+
+21:46:02.804 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/apiREST/rest.feature
+21:46:09.296 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703904369295
+21:46:09.319 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 18 - ^Creando un usuario$
+21:46:10.533 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.9)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+21:46:11.354 [main] DEBUG com.intuit.karate - response time in milliseconds: 813
+1 < 201
+1 < Date: Sat, 30 Dec 2023 02:46:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703904379&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2BTjdZunUhrrA6870J0J7wtrI3gN5OCPAaB%2FPPKfWG8A%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703904379&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2BTjdZunUhrrA6870J0J7wtrI3gN5OCPAaB%2FPPKfWG8A%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-4LHEyRjbYVFmtmYfHQqX+j07G5M"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83d6f39fead7a525-GRU
+{"name":"morpheus","job":"leader","id":"641","createdAt":"2023-12-30T02:46:19.170Z"}
+
+21:46:12.287 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/apiREST/rest.feature
+21:48:07.117 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1703904487115
+21:48:07.145 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Obteniendo un usuario$
+21:48:08.221 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > 'Content-Type': application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.9)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:48:08.642 [main] DEBUG com.intuit.karate - response time in milliseconds: 416
+1 < 200
+1 < Date: Sat, 30 Dec 2023 02:48:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701699942&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=VokJYq29mOeAol49jXPdQB3Y7o5Adg2QxHzngd5D1Xc%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701699942&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=VokJYq29mOeAol49jXPdQB3Y7o5Adg2QxHzngd5D1Xc%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 2454
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 83d6f67f6e690301-GRU
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:48:09.301 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/apiREST/rest.feature
